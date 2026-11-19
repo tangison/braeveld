@@ -47,8 +47,9 @@ git commit -m "what changed, in plain words"
 git push origin main          # GitHub Pages rebuilds automatically (~2 min)
 ```
 
-Vercel: if the project is connected to this repo it rebuilds on the same push.
-If you deploy from the CLI instead:
+Vercel is connected to this repo, so the same push rebuilds Vercel too
+(verified: the production deployment carries the git commit meta). The CLI
+route also works:
 
 ```bash
 npx vercel deploy --prod      # or: npx vercel --prod --token <PAT-token>
