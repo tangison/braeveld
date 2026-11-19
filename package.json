@@ -1,0 +1,20 @@
+{
+  "name": "braeveld",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/postbuild.mjs",
+    "build:pages": "cross-env-shell NEXT_PUBLIC_BASE_PATH=/braeveld NEXT_PUBLIC_SITE_URL=https://tangison.github.io/braeveld \"next build\" && node scripts/postbuild.mjs",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.32",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "playwright-core": "^1.65.1"
+  }
+}

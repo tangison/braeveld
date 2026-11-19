@@ -1,0 +1,19 @@
+{
+  "name": "Braeveld Boerdery Group Namibia",
+  "short_name": "Braeveld",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "theme_color": "#faf8f2",
+  "background_color": "#faf8f2",
+  "display": "browser"
+}
